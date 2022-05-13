@@ -18,8 +18,9 @@ int main() {
     //My tests
 
     // testing getSide()
+    /*
     std::cout << mySquare.getSide() << std::endl;
-
+    */
     /* tests a negative side
     Square mySquare2(-1);
     std::cout << "The area of mySquare is: "
