@@ -8,9 +8,11 @@
 /// @author Reid Lum <reidlum@hawaii.edu>
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
-
-class Square {
-
+#include "Rectangle.h"
+class Square : public Rectangle {
+public:
+    Square(double newSide) : Rectangle(newSide, newSide) {};
+    double getSide();
 };
 
 

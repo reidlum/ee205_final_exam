@@ -1,12 +1,6 @@
 #include <iostream>
-/*
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    std::cout << "Just making sure!" << std::endl;
+#include "Square.h"
 
-    return 0;
-}
-*/
 // Main for Classes
 int main() {
     std::cout << "Hello, World!" << std::endl;
