@@ -9,8 +9,16 @@
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
 #include "Rectangle.h"
+#include <stdexcept>
 
-Rectangle::Rectangle() {}
+Rectangle::Rectangle(double newLength, double newWidth) {
+    if (newLength <= 0) {
+        throw std::invalid_argument("length and width must be > 0");
+    }
+    if (newWidth <= 0) {
+        throw std::invalid_argument("length and width must be > 0");
+    }
+}
 
 double Rectangle::getLength() const {
     return length;
