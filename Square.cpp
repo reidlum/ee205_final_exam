@@ -14,5 +14,5 @@ Square::Square(double newSide) : Rectangle(newSide, newSide) {
 }
 */
 double Square::getSide() {
-    return length;
+    return Rectangle::length;
 }
