@@ -21,5 +21,7 @@ public:
 
     double getWidth() const;
 
+    double compute_area() override;
+
 };
 

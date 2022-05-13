@@ -18,6 +18,8 @@ Rectangle::Rectangle(double newLength, double newWidth) {
     if (newWidth <= 0) {
         throw std::invalid_argument("length and width must be > 0");
     }
+    length = newLength;
+    width = newWidth;
 }
 
 double Rectangle::getLength() const {
@@ -26,4 +28,8 @@ double Rectangle::getLength() const {
 
 double Rectangle::getWidth() const {
     return width;
+}
+
+double Rectangle::compute_area() {
+    return length*width;
 }
