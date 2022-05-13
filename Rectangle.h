@@ -8,8 +8,18 @@
 /// @author Reid Lum <reidlum@hawaii.edu>
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
+#include "Shape.h"
+class Rectangle : public Shape {
+protected:
+    double length;
+    double width;
 
-class Rectangle {
+public:
+    Rectangle(double newLength, double newWidth);
+
+    double getLength() const;
+
+    double getWidth() const;
 
 };
 

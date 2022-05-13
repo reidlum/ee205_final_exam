@@ -9,3 +9,13 @@
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
 #include "Rectangle.h"
+
+Rectangle::Rectangle() {}
+
+double Rectangle::getLength() const {
+    return length;
+}
+
+double Rectangle::getWidth() const {
+    return width;
+}
