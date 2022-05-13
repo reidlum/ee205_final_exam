@@ -9,6 +9,7 @@
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
 #include "Square.h"
+
 double Square::getSide() {
     return Rectangle::length;
 }

@@ -31,5 +31,5 @@ double Rectangle::getWidth() const {
 }
 
 double Rectangle::compute_area() {
-    return length*width;
+    return length * width;
 }

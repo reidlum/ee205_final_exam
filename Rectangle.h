@@ -9,6 +9,7 @@
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
 #include "Shape.h"
+
 class Rectangle : public Shape {
 protected:
     double length;
